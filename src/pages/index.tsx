@@ -4,7 +4,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <h1>HOME</h1>
+      <h1>HOME CAMBIO!!</h1>
     </>
   )
 }
