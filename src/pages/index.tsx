@@ -13,8 +13,12 @@ const Home: NextPage = () => {
           </div>
             <div className="flex justify-center p-8">
               <div className="flex justify-evenly w-80">
-                <Button text={"Let's Start"}/>
-                <Button text={"Why us!"}/>
+                <Button>
+                    Click for more!
+                </Button>
+                <Button>
+                    Why us?
+                </Button>
               </div>
             </div>
             
