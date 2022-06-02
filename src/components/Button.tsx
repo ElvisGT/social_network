@@ -1,10 +1,15 @@
-import { Children } from "react";
+import { JSXElementConstructor, ReactElement } from "react";
 
-type SizeProps = {children:string}
-    
-export const Button = ({children}:SizeProps) => {
+interface ButtonProps {
+    name?:string
+    children:ReactElement<any,string | JSXElementConstructor<any>> | string
+    className:string
+}
+
+
+export const Button : React.FC<ButtonProps> = ({children,className}) => {
     return (
-        <button className="bg-red-600 w-24 h-7 rounded-3xl active:border-2 hover:bg-red-500 text-white">
+        <button className={className}>
             {children}
         </button>
     )
