@@ -14,10 +14,10 @@ const Home: NextPage = () => {
           </div>
             <div className="flex justify-center p-8">
               <div className="flex justify-evenly w-80">
-                <Button className="flex item-center justify-center px-4 w-auto bg-red-600 h-7 rounded-3xl active:border-2 hover:bg-red-500 text-white">
+                <Button>
                     Enter
                 </Button>
-                <Button className="flex item-center justify-center px-4 w-auto bg-red-600 h-7 rounded-3xl active:border-2 hover:bg-red-500 text-white">
+                <Button>
                     Why us?
                 </Button>
               </div>
