@@ -14,7 +14,7 @@ const Home: NextPage = () => {
             <div className="flex justify-center p-8">
               <div className="flex justify-evenly w-80">
                 <Button>
-                    Click for more!
+                    Click me!
                 </Button>
                 <Button>
                     Why us?
